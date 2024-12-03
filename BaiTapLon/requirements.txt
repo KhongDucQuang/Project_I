@@ -1,0 +1,4 @@
+pandas
+numpy
+ydata_profiling
+scikit-learn

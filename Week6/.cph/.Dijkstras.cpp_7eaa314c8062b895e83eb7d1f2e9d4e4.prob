@@ -1,0 +1,1 @@
+{"name":"Local: Dijkstras","url":"/home/hyxinh/Documents/Project1/Week6/Dijkstras.cpp","tests":[{"id":1730393930026,"input":"5 7\n2 5 87\n1 2 97\n4 5 78\n3 1 72\n1 4 19\n2 3 63\n5 1 18\n1 5","output":"97"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/hyxinh/Documents/Project1/Week6/Dijkstras.cpp","group":"local","local":true}

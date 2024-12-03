@@ -1,0 +1,1 @@
+{"name":"Local: WaterJugs","url":"/home/hyxinh/Documents/Project1/Week3/WaterJugs.cpp","tests":[{"id":1728663515722,"input":"6  8  4","output":"4"},{"id":1728663571372,"input":"136 288 24\n","output":"42"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/hyxinh/Documents/Project1/Week3/WaterJugs.cpp","group":"local","local":true}

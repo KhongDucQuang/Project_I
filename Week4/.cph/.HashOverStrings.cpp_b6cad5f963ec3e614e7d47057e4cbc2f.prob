@@ -1,0 +1,1 @@
+{"name":"Local: HashOverStrings","url":"/home/hyxinh/Documents/Project1/Week4/HashOverStrings.cpp","tests":[{"id":1729180667744,"input":"4 1000\na\nab\nabc\nabcd","output":"97\n930\n179\n924"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/hyxinh/Documents/Project1/Week4/HashOverStrings.cpp","group":"local","local":true}
