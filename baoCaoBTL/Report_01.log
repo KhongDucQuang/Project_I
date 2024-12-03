@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.2)  3 DEC 2024 15:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.2)  4 DEC 2024 03:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -282,7 +282,11 @@ LaTeX Font Info:    Trying to load font information for T5+cmr on input line 5.
 
  (/home/hyxinh/.miktex/texmfs/install/tex/latex/vntex/t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-))
+)
+
+LaTeX Warning: Label `fig:hypertensionchart' multiply defined.
+
+)
 \openout1 = `Report_01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -301,8 +305,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-
-(/home/hyxinh/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+ (/home/hyxinh/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count274
 \scratchdimen=\dimen145
@@ -334,16 +337,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
  []
 
 
-
-[1
-
-{/home/hyxinh/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
+
+
+[1
+
+{/home/hyxinh/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 32.
+(Font)              <10.95> on input line 37.
 
 
 [2]
@@ -352,32 +360,110 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <nullCheck.png, id=16, 387.69844pt x 245.41687pt>
 File: nullCheck.png Graphic file (type png)
 <use nullCheck.png>
-Package pdftex.def Info: nullCheck.png  used on input line 89.
+Package pdftex.def Info: nullCheck.png  used on input line 94.
 (pdftex.def)             Requested size: 328.82706pt x 208.15594pt.
 
 
-[4 <./nullCheck.png>] (Report_01.aux)
+[4 <./nullCheck.png>]
+<correlationHeatmap.png, id=22, 891.33pt x 796.9775pt>
+File: correlationHeatmap.png Graphic file (type png)
+<use correlationHeatmap.png>
+Package pdftex.def Info: correlationHeatmap.png  used on input line 111.
+(pdftex.def)             Requested size: 328.82706pt x 294.01363pt.
+<genderPie.png, id=23, 482.80376pt x 483.8075pt>
+File: genderPie.png Graphic file (type png)
+<use genderPie.png>
+Package pdftex.def Info: genderPie.png  used on input line 146.
+(pdftex.def)             Requested size: 234.87749pt x 235.36244pt.
+
+
+[5 <./correlationHeatmap.png (PNG copy)>]
+<residencePie.png, id=27, 482.80376pt x 483.8075pt>
+File: residencePie.png Graphic file (type png)
+<use residencePie.png>
+Package pdftex.def Info: residencePie.png  used on input line 153.
+(pdftex.def)             Requested size: 234.87749pt x 235.36244pt.
+<marriedPie.png, id=28, 482.80376pt x 483.8075pt>
+File: marriedPie.png Graphic file (type png)
+<use marriedPie.png>
+Package pdftex.def Info: marriedPie.png  used on input line 160.
+(pdftex.def)             Requested size: 234.87749pt x 235.36244pt.
+
+
+[6 <./genderPie.png (PNG copy)> <./residencePie.png (PNG copy)>]
+<workedPie.png, id=32, 594.22pt x 483.8075pt>
+File: workedPie.png Graphic file (type png)
+<use workedPie.png>
+Package pdftex.def Info: workedPie.png  used on input line 167.
+(pdftex.def)             Requested size: 234.87749pt x 191.23843pt.
+<smokingPie.png, id=33, 604.2575pt x 483.8075pt>
+File: smokingPie.png Graphic file (type png)
+<use smokingPie.png>
+Package pdftex.def Info: smokingPie.png  used on input line 174.
+(pdftex.def)             Requested size: 234.87749pt x 188.05667pt.
+
+
+[7 <./marriedPie.png (PNG copy)> <./workedPie.png (PNG copy)>]
+<hypertensionChart.png, id=38, 395.4775pt x 394.47375pt>
+File: hypertensionChart.png Graphic file (type png)
+<use hypertensionChart.png>
+Package pdftex.def Info: hypertensionChart.png  used on input line 181.
+(pdftex.def)             Requested size: 234.87749pt x 234.28441pt.
+File: hypertensionChart.png Graphic file (type png)
+<use hypertensionChart.png>
+Package pdftex.def Info: hypertensionChart.png  used on input line 188.
+(pdftex.def)             Requested size: 234.87749pt x 234.28441pt.
+
+
+[8 <./smokingPie.png (PNG copy)> <./hypertensionChart.png (PNG copy)>]
+<ageAndStroke.png, id=42, 1008.76875pt x 394.47375pt>
+File: ageAndStroke.png Graphic file (type png)
+<use ageAndStroke.png>
+Package pdftex.def Info: ageAndStroke.png  used on input line 195.
+(pdftex.def)             Requested size: 469.75499pt x 183.69324pt.
+<glucoseAndStroke.png, id=43, 1008.76875pt x 394.47375pt>
+File: glucoseAndStroke.png Graphic file (type png)
+<use glucoseAndStroke.png>
+Package pdftex.def Info: glucoseAndStroke.png  used on input line 202.
+(pdftex.def)             Requested size: 469.75499pt x 183.69324pt.
+
+
+[9 <./ageAndStroke.png (PNG copy)>]
+<bmiAndStroke.png, id=47, 1008.76875pt x 394.47375pt>
+File: bmiAndStroke.png Graphic file (type png)
+<use bmiAndStroke.png>
+Package pdftex.def Info: bmiAndStroke.png  used on input line 209.
+(pdftex.def)             Requested size: 469.75499pt x 183.69324pt.
+
+
+[10 <./glucoseAndStroke.png (PNG copy)> <./bmiAndStroke.png (PNG copy)>]
+
+[11] (Report_01.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 3097 strings out of 473683
- 51921 string characters out of 5723537
- 451517 words of memory out of 5000000
- 26175 multiletter control sequences out of 15000+600000
+ 3218 strings out of 473683
+ 54645 string characters out of 5723537
+ 451786 words of memory out of 5000000
+ 26296 multiletter control sequences out of 15000+600000
  567572 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,520b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,7n,65p,657b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/hyxinh/.miktex/texmfs/install/fonts/type1/vntex/vnr/vnbx10.pfb></home/
 hyxinh/.miktex/texmfs/install/fonts/type1/vntex/vnr/vnbx12.pfb></home/hyxinh/.m
 iktex/texmfs/install/fonts/type1/vntex/vnr/vnr10.pfb></home/hyxinh/.miktex/texm
 fs/install/fonts/type1/vntex/vnr/vnr12.pfb></home/hyxinh/.miktex/texmfs/install
 /fonts/type1/vntex/vnr/vnr17.pfb>
-Output written on Report_01.pdf (4 pages, 113049 bytes).
+Output written on Report_01.pdf (11 pages, 389581 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

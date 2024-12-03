@@ -2,3 +2,5 @@ pandas
 numpy
 ydata_profiling
 scikit-learn
+seaborn
+matplotlib
