@@ -22,15 +22,16 @@
 	
 	\section{Tóm tắt}
 	
-	Đột quỵ là một tình trạng y tế khẩn cấp xảy ra khi dòng máu đến một phần não bị gián đoạn do xuất huyết hoặc tắc nghẽn bởi cục máu đông. Đây là nguyên nhân tử vong đứng thứ hai trên toàn cầu, với khoảng 5,5 triệu ca tử vong mỗi năm. Theo thống kê, mỗi năm có hơn 15 triệu người trên thế giới bị ảnh hưởng bởi đột quỵ, và trung bình cứ mỗi 4 phút lại có một trường hợp tử vong do tình trạng này.
 	
-	Phần lớn các trường hợp đột quỵ có liên quan chặt chẽ đến lối sống không lành mạnh, dẫn đến ước tính khoảng 80\% các trường hợp có thể được phòng ngừa. Do đó, việc xây dựng các mô hình dự đoán nguy cơ đột quỵ có ý nghĩa quan trọng trong việc ngăn chặn các tổn thương nghiêm trọng và giảm thiểu tỷ lệ tử vong liên quan. Công tác dự đoán không chỉ giúp cảnh báo sớm mà còn hỗ trợ trong việc đưa ra các biện pháp can thiệp kịp thời nhằm bảo vệ sức khỏe cộng đồng.
 	
+	\hspace{0.6cm}Đột quỵ là một \textbf{tình trạng y tế khẩn cấp} xảy ra khi dòng máu đến một phần não bị gián đoạn do xuất huyết hoặc tắc nghẽn bởi cục máu đông. Đây là nguyên nhân tử vong đứng thứ hai trên toàn cầu, với khoảng \textbf{5,5 triệu ca tử vong} mỗi năm. Theo thống kê, mỗi năm có hơn \textbf{15 triệu người} trên thế giới bị ảnh hưởng bởi đột quỵ, và \textit{trung bình cứ mỗi 4 phút lại có một trường hợp tử vong} do tình trạng này.
 	\vspace{0.3cm}
+	
+ 	Phần lớn các trường hợp đột quỵ có liên quan chặt chẽ đến lối sống không lành mạnh, dẫn đến ước tính khoảng 80\% các trường hợp có thể được phòng ngừa. Do đó, việc xây dựng các mô hình dự đoán nguy cơ đột quỵ có ý nghĩa quan trọng trong việc ngăn chặn các tổn thương nghiêm trọng và giảm thiểu tỷ lệ tử vong liên quan. Công tác dự đoán không chỉ giúp cảnh báo sớm mà còn hỗ trợ trong việc đưa ra các biện pháp can thiệp kịp thời nhằm bảo vệ sức khỏe cộng đồng.
 	
 	\section{Mục tiêu dự án}
 	
-	Mục tiêu của dự án này là dự đoán khả năng xảy ra đột quỵ não bằng cách ứng dụng các kỹ thuật học máy. Bằng cách phân tích dữ liệu y tế, em sẽ huấn luyện một số mô hình học máy nhằm nhận diện các mẫu và yếu tố rủi ro liên quan đến đột quỵ. Điều này sẽ hỗ trợ phát hiện sớm, cung cấp những thông tin quan trọng giúp đưa ra các biện pháp phòng ngừa và can thiệp kịp thời.
+	\hspace{0.6cm}Mục tiêu của dự án này là dự đoán khả năng xảy ra đột quỵ não bằng cách ứng dụng các kỹ thuật học máy. Bằng cách phân tích dữ liệu y tế, em sẽ huấn luyện một số mô hình học máy nhằm nhận diện các mẫu và yếu tố rủi ro liên quan đến đột quỵ. Điều này sẽ hỗ trợ phát hiện sớm, cung cấp những thông tin quan trọng giúp đưa ra các biện pháp phòng ngừa và can thiệp kịp thời.
 	\pagebreak
 	
 	\tableofcontents
@@ -48,22 +49,21 @@
 	\section{Mô tả bộ dữ liệu}
 	
 	
-	Bộ dữ liệu được em thu thập từ trang Web Kaggle để ước tính xem bệnh nhân có khả năng đột quỵ hay không. Đâu là bộ dữ liệu về thông tin của 5110 người bao gồm 11 thuộc tính và 1 cột stroke(output) là có khả năng đột quỵ hay không. (FEDESORIANO 2021). 
+	\hspace{0.6cm}Bộ dữ liệu được em thu thập từ trang Web Kaggle để ước tính xem bệnh nhân có khả năng đột quỵ hay không. Đâu là bộ dữ liệu về thông tin của 5110 người bao gồm 11 thuộc tính và 1 cột stroke(output) là có khả năng đột quỵ hay không. (FEDESORIANO 2021). 
 	
 	Dưới đây là danh sách các thuộc tính:
 	\begin{enumerate}
-		\item Id (Interger Feature): Đây là dữ liệu kiểu số nhằm. Tuy nhiên thuộc tính này không làm ảnh hưởng tới Output nên em sẽ không phân tích thêm.
-		\item Gender (Nominal Feature): Đây là thuộc tính kiểu chữ bao gồm các giá trị: Male, Female, Orther. Thuộc tính "Gender" (giới tính) có thể ảnh hưởng tới khả năng đột quỵ do sự khác biệt sinh học, nội tiết tố, và yếu tố hành vi giữa nam và nữ.
-		\item Age (Interger Feature): Dữ liệu kiểu số. Thuộc này này là một yếu tố quan trọng ảnh hưởng đến khả năng đột quỵ.
-		\item Hypertension (Integer Feature): Với hai giá trị khác nhau là: 0, 1.
-		Đây là yếu tố nguy cơ lớn nhất đối với đột quỵ. Nó có ảnh hưởng sâu sắc đến khả năng đột quỵ.
-		\item Heart Disease (Integer Feature): Với hai giá trị khác nhau là: 0, 1. Là một yếu tố có nguy cơ đáng kể gây đột quỵ. 
-		\item Ever married (Boolean Feature): Với hai giá trị khác nhau là: True, False. Có thể liên quan đến nguy cơ đột quỵ qua các yếu tố gián tiếp, chẳng hạn như lối sống, sức khỏe tâm lý, và sự hỗ trợ xã hội.
-		\item Work type (Nominal Feature): Có 5 loại giá trị khác nhau: Private, Self-employed, children, Govt-job, Never-worked. Và ảnh hưởng đáng kể đến nguy cơ đột quỵ thông qua các yếu tố như mức độ căng thẳng, hoạt động thể chất, và tiếp xúc với các yếu tố nguy cơ môi trường.
-		\item Residence type (Nominal Feature): Có hai giá trị khác nhau là: Urban, Rural. Ảnh hưởng đến nguy cơ đột quỵ thông qua các yếu tố môi trường, điều kiện sống, và khả năng tiếp cận dịch vụ chăm sóc sức khỏe.
-		\item Avg glucose level (Float Feature): Là một yếu tố quan trọng liên quan đến nguy cơ đột quỵ, đặc biệt thông qua mối liên hệ với bệnh tiểu đường và rối loạn chuyển hóa. Mức đường huyết bất thường, cả cao lẫn thấp, đều có thể làm tăng nguy cơ đột quỵ.
-		\item BMI (Float Feature): Là một chỉ số quan trọng để đánh giá mức độ béo phì hoặc thừa cân của một người, và nó có mối liên hệ mạnh mẽ với nguy cơ đột quỵ.
-		\item Smoking status(Nominal Feature): Với 4 giá trị khác nhau: Never smoked, Unknown, formerly smoked, smokes. Là một yếu tố nguy cơ quan trọng đối với nhiều bệnh lý, bao gồm đột quỵ. Hút thuốc lá ảnh hưởng đến sức khỏe của tim và mạch máu, gây ra những tác động tiêu cực trực tiếp làm tăng nguy cơ đột quỵ. 
+		\item \textbf{Id (Interger Feature)}: Đây là dữ liệu kiểu số nhằm. Tuy nhiên thuộc tính này không làm ảnh hưởng tới Output nên em sẽ không phân tích thêm.
+		\item \textbf{Gender (Nominal Feature)}: Đây là thuộc tính kiểu chữ bao gồm các giá trị: Male, Female, Orther. Thuộc tính "Gender" (giới tính) có thể ảnh hưởng tới khả năng đột quỵ do sự khác biệt sinh học, nội tiết tố, và yếu tố hành vi giữa nam và nữ.
+		\item \textbf{Age (Interger Feature)}: Dữ liệu kiểu số. Thuộc này này là một yếu tố quan trọng ảnh hưởng đến khả năng đột quỵ.
+		\item \textbf{Hypertension (Integer Feature)}: Với hai giá trị khác nhau là: 0, 1. Đây là yếu tố nguy cơ lớn nhất đối với đột quỵ. Nó có ảnh hưởng sâu sắc đến khả năng đột quỵ.
+		\item \textbf{Heart Disease (Integer Feature)}: Với hai giá trị khác nhau là: 0, 1. Là một yếu tố có nguy cơ đáng kể gây đột quỵ. 
+		\item \textbf{Ever married (Boolean Feature)}: Với hai giá trị khác nhau là: True, False. Có thể liên quan đến nguy cơ đột quỵ qua các yếu tố gián tiếp, chẳng hạn như lối sống, sức khỏe tâm lý, và sự hỗ trợ xã hội.
+		\item \textbf{Work type (Nominal Feature)}: Có 5 loại giá trị khác nhau: Private, Self-employed, children, Govt-job, Never-worked. Và ảnh hưởng đáng kể đến nguy cơ đột quỵ thông qua các yếu tố như mức độ căng thẳng, hoạt động thể chất, và tiếp xúc với các yếu tố nguy cơ môi trường.
+		\item \textbf{Residence type (Nominal Feature)}: Có hai giá trị khác nhau là: Urban, Rural. Ảnh hưởng đến nguy cơ đột quỵ thông qua các yếu tố môi trường, điều kiện sống, và khả năng tiếp cận dịch vụ chăm sóc sức khỏe.
+		\item \textbf{Avg glucose level (Float Feature)}: Là một yếu tố quan trọng liên quan đến nguy cơ đột quỵ, đặc biệt thông qua mối liên hệ với bệnh tiểu đường và rối loạn chuyển hóa. Mức đường huyết bất thường, cả cao lẫn thấp, đều có thể làm tăng nguy cơ đột quỵ.
+		\item \textbf{BMI (Float Feature)}: Là một chỉ số quan trọng để đánh giá mức độ béo phì hoặc thừa cân của một người, và nó có mối liên hệ mạnh mẽ với nguy cơ đột quỵ.
+		\item \textbf{Smoking status(Nominal Feature)}: Với 4 giá trị khác nhau: Never smoked, Unknown, formerly smoked, smokes. Là một yếu tố nguy cơ quan trọng đối với nhiều bệnh lý, bao gồm đột quỵ. Hút thuốc lá ảnh hưởng đến sức khỏe của tim và mạch máu, gây ra những tác động tiêu cực trực tiếp làm tăng nguy cơ đột quỵ. 
 	\end{enumerate}
 	
 	\pagebreak
@@ -241,7 +241,7 @@
 	
 	\textbf{Nhận xét}:
 	\begin{enumerate}
-		\item Mất cân bằng dữ liệu nghiêm trọng. Tỷ lệ người không bị đột quỵ (No) chiếm 95.13\% tổng số dữ liệu. Trong khi đó, tỷ lệ người bị đột quỵ (Yes) chỉ chiếm 4.87\%. Điều này cho thấy dữ liệu mất cân bằng nghiêm trọng giữa hai nhóm.
+		\item Mất cân bằng dữ liệu nghiêm trọng. Tỷ lệ người không bị đột quỵ (No) \textit{chiếm} \textbf{95.13\%} tổng số dữ liệu. Trong khi đó, tỷ lệ người bị đột quỵ (Yes) \textit{chỉ chiếm} \textbf{4.87\%}. Điều này cho thấy dữ liệu mất cân bằng nghiêm trọng giữa hai nhóm.
 		\item Việc mất cân bằng dữ liệu này có thể dẫn đến việc mô hình học máy thiên vị, tập trung vào việc dự đoán chính xác lớp chiếm đa số (No) mà bỏ qua lớp thiểu số (Yes). \textbf{Từ đó dẫn đến kết quả} mô hình có thể đạt độ chính xác cao nhưng không phát hiện chính xác các trường hợp bị đột quỵ, làm tăng tỷ lệ False Negative (bỏ sót những người thực sự bị đột quỵ).
 	\end{enumerate}
 	

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.2)  4 DEC 2024 15:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.2)  4 DEC 2024 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -353,7 +353,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [3]
 
 [4]
-<nullCheck.png, id=19, 387.69844pt x 245.41687pt>
+<nullCheck.png, id=20, 387.69844pt x 245.41687pt>
 File: nullCheck.png Graphic file (type png)
 <use nullCheck.png>
 Package pdftex.def Info: nullCheck.png  used on input line 80.
@@ -361,12 +361,12 @@ Package pdftex.def Info: nullCheck.png  used on input line 80.
 
 
 [5 <./nullCheck.png>]
-<correlationHeatmap.png, id=25, 891.33pt x 796.9775pt>
+<correlationHeatmap.png, id=26, 891.33pt x 796.9775pt>
 File: correlationHeatmap.png Graphic file (type png)
 <use correlationHeatmap.png>
 Package pdftex.def Info: correlationHeatmap.png  used on input line 97.
 (pdftex.def)             Requested size: 328.82706pt x 294.01363pt.
-<genderPie.png, id=26, 482.80376pt x 483.8075pt>
+<genderPie.png, id=27, 482.80376pt x 483.8075pt>
 File: genderPie.png Graphic file (type png)
 <use genderPie.png>
 Package pdftex.def Info: genderPie.png  used on input line 132.
@@ -374,12 +374,12 @@ Package pdftex.def Info: genderPie.png  used on input line 132.
 
 
 [6 <./correlationHeatmap.png (PNG copy)>]
-<residencePie.png, id=30, 482.80376pt x 483.8075pt>
+<residencePie.png, id=31, 482.80376pt x 483.8075pt>
 File: residencePie.png Graphic file (type png)
 <use residencePie.png>
 Package pdftex.def Info: residencePie.png  used on input line 139.
 (pdftex.def)             Requested size: 234.87749pt x 235.36244pt.
-<marriedPie.png, id=31, 482.80376pt x 483.8075pt>
+<marriedPie.png, id=32, 482.80376pt x 483.8075pt>
 File: marriedPie.png Graphic file (type png)
 <use marriedPie.png>
 Package pdftex.def Info: marriedPie.png  used on input line 146.
@@ -387,12 +387,12 @@ Package pdftex.def Info: marriedPie.png  used on input line 146.
 
 
 [7 <./genderPie.png (PNG copy)> <./residencePie.png (PNG copy)>]
-<workedPie.png, id=36, 594.22pt x 483.8075pt>
+<workedPie.png, id=37, 594.22pt x 483.8075pt>
 File: workedPie.png Graphic file (type png)
 <use workedPie.png>
 Package pdftex.def Info: workedPie.png  used on input line 153.
 (pdftex.def)             Requested size: 234.87749pt x 191.23843pt.
-<smokingPie.png, id=37, 604.2575pt x 483.8075pt>
+<smokingPie.png, id=38, 604.2575pt x 483.8075pt>
 File: smokingPie.png Graphic file (type png)
 <use smokingPie.png>
 Package pdftex.def Info: smokingPie.png  used on input line 160.
@@ -400,7 +400,7 @@ Package pdftex.def Info: smokingPie.png  used on input line 160.
 
 
 [8 <./marriedPie.png (PNG copy)> <./workedPie.png (PNG copy)>]
-<hypertensionChart.png, id=41, 395.4775pt x 394.47375pt>
+<hypertensionChart.png, id=42, 395.4775pt x 394.47375pt>
 File: hypertensionChart.png Graphic file (type png)
 <use hypertensionChart.png>
 Package pdftex.def Info: hypertensionChart.png  used on input line 167.
@@ -412,12 +412,12 @@ Package pdftex.def Info: hypertensionChart.png  used on input line 174.
 
 
 [9 <./smokingPie.png (PNG copy)> <./hypertensionChart.png (PNG copy)>]
-<ageAndStroke.png, id=45, 1008.76875pt x 394.47375pt>
+<ageAndStroke.png, id=46, 1008.76875pt x 394.47375pt>
 File: ageAndStroke.png Graphic file (type png)
 <use ageAndStroke.png>
 Package pdftex.def Info: ageAndStroke.png  used on input line 181.
 (pdftex.def)             Requested size: 469.75499pt x 183.69324pt.
-<glucoseAndStroke.png, id=46, 1008.76875pt x 394.47375pt>
+<glucoseAndStroke.png, id=47, 1008.76875pt x 394.47375pt>
 File: glucoseAndStroke.png Graphic file (type png)
 <use glucoseAndStroke.png>
 Package pdftex.def Info: glucoseAndStroke.png  used on input line 197.
@@ -425,7 +425,7 @@ Package pdftex.def Info: glucoseAndStroke.png  used on input line 197.
 
 
 [10 <./ageAndStroke.png (PNG copy)>]
-<bmiAndStroke.png, id=50, 1008.76875pt x 394.47375pt>
+<bmiAndStroke.png, id=51, 1008.76875pt x 394.47375pt>
 File: bmiAndStroke.png Graphic file (type png)
 <use bmiAndStroke.png>
 Package pdftex.def Info: bmiAndStroke.png  used on input line 212.
@@ -433,12 +433,12 @@ Package pdftex.def Info: bmiAndStroke.png  used on input line 212.
 
 
 [11 <./glucoseAndStroke.png (PNG copy)> <./bmiAndStroke.png (PNG copy)>]
-<dataBalanceCompare.png, id=54, 395.4775pt x 394.47375pt>
+<dataBalanceCompare.png, id=55, 395.4775pt x 394.47375pt>
 File: dataBalanceCompare.png Graphic file (type png)
 <use dataBalanceCompare.png>
 Package pdftex.def Info: dataBalanceCompare.png  used on input line 230.
 (pdftex.def)             Requested size: 234.87749pt x 234.28441pt.
-<compareBalancePie.png, id=55, 342.27875pt x 351.3125pt>
+<compareBalancePie.png, id=56, 342.27875pt x 351.3125pt>
 File: compareBalancePie.png Graphic file (type png)
 <use compareBalancePie.png>
 Package pdftex.def Info: compareBalancePie.png  used on input line 237.
@@ -446,7 +446,7 @@ Package pdftex.def Info: compareBalancePie.png  used on input line 237.
 
 
 [12 <./dataBalanceCompare.png (PNG copy)>]
-<solBalanceData.png, id=59, 704.6325pt x 481.8pt>
+<solBalanceData.png, id=60, 704.6325pt x 481.8pt>
 File: solBalanceData.png Graphic file (type png)
 <use solBalanceData.png>
 Package pdftex.def Info: solBalanceData.png  used on input line 254.
@@ -466,21 +466,22 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3268 strings out of 473683
- 55698 string characters out of 5723537
+ 3270 strings out of 473683
+ 55721 string characters out of 5723537
  451849 words of memory out of 5000000
- 26340 multiletter control sequences out of 15000+600000
- 567572 words of font info for 54 fonts, out of 8000000 for 9000
+ 26341 multiletter control sequences out of 15000+600000
+ 568395 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,650b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,7n,65p,651b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/hyxinh/.miktex/texmfs/install/fonts/type1/vntex/vnr/vnbx10.pfb></home/
 hyxinh/.miktex/texmfs/install/fonts/type1/vntex/vnr/vnbx12.pfb></home/hyxinh/.m
 iktex/texmfs/install/fonts/type1/vntex/vnr/vnr10.pfb></home/hyxinh/.miktex/texm
 fs/install/fonts/type1/vntex/vnr/vnr12.pfb></home/hyxinh/.miktex/texmfs/install
-/fonts/type1/vntex/vnr/vnr17.pfb>
-Output written on kk.pdf (14 pages, 456099 bytes).
+/fonts/type1/vntex/vnr/vnr17.pfb></home/hyxinh/.miktex/texmfs/install/fonts/typ
+e1/vntex/vnr/vnti10.pfb>
+Output written on kk.pdf (14 pages, 472771 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
