@@ -1,0 +1,7 @@
+\babel@toc {vietnamese}{}\relax 
+\contentsline {section}{\numberline {1}Tóm tắt}{1}{}%
+\contentsline {section}{\numberline {2}Mục tiêu dự án}{1}{}%
+\contentsline {section}{\numberline {3}Mô tả bộ dữ liệu}{4}{}%
+\contentsline {section}{\numberline {4}Xử lý dữ liệu}{5}{}%
+\contentsline {section}{\numberline {5}Phân tích dữ liệu}{6}{}%
+\contentsline {section}{\numberline {6}Xem xét sự mất cân bằng dữ liệu}{12}{}%
