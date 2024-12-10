@@ -13,7 +13,7 @@
 \textheight=9.0in
 \headsep=0.25in
 
-\title{STROKE PREDICTION USING MACHINE LEARNING TECHNIQUES}
+\title{DỰ ĐOÁN ĐỘT QUỴ BẰNG CÁC KỸ THUẬT HỌC MÁY}
 \author{Khổng Đức Quang - MSSV: 20225072}
 \date{\today}
 
@@ -68,7 +68,7 @@
 	
 	\pagebreak
 	
-	\section{Xử lý dữ liệu}
+	\section{Tiền xử lý dữ liệu}
 	
 	Trong quá trình tiền xử lý số liệu, em nhận thấy có các vấn đề sau cần xử lý:
 	\begin{enumerate}
@@ -259,9 +259,201 @@
 		Sau khi sử dụng kỹ thuật SMOTE để xử lý sự mất cân bằng của dữ liệu thì số trường hợp đột quỵ và không đột quỵ đã bằng nhau như kết quả trên hình.
 	\end{flushleft}
 	
-	%\section{Huấn luyện mô hình}
+	\section{Huấn luyện mô hình}
 	
-	%\subsection{LogisticRegression}
+	\subsection{LogisticRegression}
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{LogisticRegression/screenshot001}H
+		\caption{}
+		\label{fig:screenshot001}
+	\end{figure}
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{LogisticRegression/screenshot002}
+		\caption{}
+		\label{fig:screenshot002}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{LogisticRegression/screenshot003}
+		\caption{}
+		\label{fig:screenshot003}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{LogisticRegression/DuongCongROC}
+		\caption{Đường cong ROC - Logistic Regression}
+		\label{fig:duongcongroc}
+	\end{figure}
+	
+	\subsection{Decision Tree Classifier}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{DecisionTreeClassifier/screenshot004}
+		\caption{}
+		\label{fig:screenshot004}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{DecisionTreeClassifier/screenshot005}
+		\caption{}
+		\label{fig:screenshot005}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{DecisionTreeClassifier/DuongCongROC}
+		\caption{Đường cong ROC - Decision Tree Classifier}
+		\label{fig:duongcongroc}
+	\end{figure}
+	
+	\subsection{K Nearest Neighbor}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{KNN/screenshot006}
+		\caption{}
+		\label{fig:screenshot006}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{KNN/screenshot007}
+		\caption{}
+		\label{fig:screenshot007}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{KNN/DuongCongROC}
+		\caption{Đường cong ROC - K Nearest Neighbor}
+		\label{fig:duongcongroc}
+	\end{figure}
+	
+	\subsection{Random Forest Classifier}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{RandomForestClassifier/screenshot008}
+		\caption{}
+		\label{fig:screenshot008}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{RandomForestClassifier/screenshot009}
+		\caption{}
+		\label{fig:screenshot009}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{RandomForestClassifier/DuongCongROC}
+		\caption{Đường cong ROC - Random Forest Classifier}
+		\label{fig:duongcongroc}
+	\end{figure}
+	
+	\subsection{Support Vector Machine}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{SVC/screenshot010}
+		\caption{}
+		\label{fig:screenshot010}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{SVC/screenshot011}
+		\caption{}
+		\label{fig:screenshot011}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{SVC/DuongCongROC}
+		\caption{Đường cong ROC - Support Vector Machine}
+		\label{fig:duongcongroc}
+	\end{figure}
+	
+	\section{Đánh giá mô hình}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{screenshot012}
+		\caption{Tổng hợp AUC}
+		\label{fig:screenshot012}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{compareAUC}
+		\caption{So sánh các đường cong ROC}
+		\label{fig:compareauc}
+	\end{figure}
+	
+	\textbf{Nhận xét}:
+	\vspace{0.2cm}
+	
+	\textbf{\textit{So sánh từng mô hình}}:
+	\vspace{0.1cm}
+	\begin{enumerate}
+		\item Random Forest (AUC = 0.989):
+		
+		Đường cong gần như bao phủ toàn bộ phần góc trên bên trái.
+		
+		Đây là mô hình có hiệu suất tốt nhất trong số các mô hình.
+		
+		Tỷ lệ \textbf{True Positive} rất cao trong khi tỷ lệ \textbf{False Positive} thấp.
+		
+		\item KNN(AUC = 0.949):
+		
+		Hiệu suất rất tốt, với đường cong ROC nằm ngay sau Random Forest.
+		
+		Mô hình này cũng thể hiện khả năng phân loại rất tốt.
+		
+		\item Decision Tree (AUC = 0.907):
+		
+		Hiệu suất tốt, nhưng thấp hơn Random Forest và KNN
+		
+		Đường cong ROC cho thấy nó đáng tin cậy nhưng không phải lựa chọn tối ưu nhất
+		
+		\item Logistic Regression (AUC = 0.895):
+		
+		Hiệu suất khá tốt nhưng thấp hơn ba mô hình trên.
+		
+		Đây là mô hình đơn giản và dễ triển khai, có thể phù hợp nếu cần cân bằng giữa độ phức tạp và hiệu quả.
+		
+		\item Support Vector Machine (AUC = 0.868):
+		
+		Hiệu suất thấp nhất trong số các mô hình được so sánh.
+		
+		Đường cong ROC nằm gần đường đoán ngẫu nhiên hơn các mô hình khác, cho thấy SVC không phải là lựa chọn tối ưu.
+	\end{enumerate}
+	
+	Như vậy, Random Forest là mô hình tốt nhất với AUC gần như đạt tối đa (0.989), cho thấy nó có khả năng phân loại mạnh mẽ. KNN cũng rất ấn tượng với AUC cao (0.949), có thể là lựa chọn thay thế khi cần sự đơn giản hơn so với Random Forest. SVC là mô hình kém hiệu quả nhất trong bài toán này, cần được xem xét kỹ nếu sử dụng.
+	
+	\section{Kết luận}
+	
+	\hspace{0.6cm}Trong bài toán so sánh hiệu suất của các mô hình phân loại qua biểu đồ ROC và chỉ số AUC, chúng ta nhận thấy sự khác biệt rõ rệt về hiệu quả giữa các thuật toán. Random Forest là mô hình vượt trội nhất với AUC đạt 0.989, gần như tối đa, cho thấy khả năng phân loại rất chính xác và độ tin cậy cao. Đường cong ROC của mô hình này nằm sát góc trên bên trái, thể hiện tỷ lệ True Positive (TPR) cao ngay cả khi tỷ lệ False Positive (FPR) thấp. Điều này làm cho Random Forest trở thành lựa chọn lý tưởng khi cần một mô hình mạnh mẽ, đặc biệt trong các bài toán có yêu cầu cao về độ chính xác.
+	\vspace{0.2cm}
+	
+	KNN (K-Nearest Neighbors) cũng cho thấy hiệu suất xuất sắc với AUC đạt 0.949. Mặc dù kém hơn Random Forest, KNN vẫn là một lựa chọn tốt, nhất là khi cần một mô hình dễ triển khai và không quá phức tạp. Tuy nhiên, nhược điểm của KNN là có thể gặp khó khăn trong xử lý dữ liệu lớn vì yêu cầu tính toán khoảng cách cho từng điểm dữ liệu.
+	\vspace{0.2cm}
+	
+	Các mô hình khác như Decision Tree (AUC = 0.907) và Logistic Regression (AUC = 0.895) cũng cho thấy hiệu suất khá tốt, nhưng thấp hơn so với Random Forest và KNN. Decision Tree có thể là lựa chọn phù hợp trong các bài toán đơn giản hoặc khi cần giải thích mô hình rõ ràng, nhưng nó dễ gặp vấn đề overfitting khi dữ liệu phức tạp. Trong khi đó, Logistic Regression, với hiệu suất ổn định và dễ hiểu, là một lựa chọn phổ biến khi cần cân bằng giữa độ phức tạp và hiệu quả.
+	\vspace{0.2cm}
+	
+	Ngược lại, SVC (Support Vector Machine) có AUC chỉ đạt 0.868, thấp nhất trong tất cả các mô hình. Điều này cho thấy mô hình SVC không phải là lựa chọn tốt trong bài toán này, có thể do đặc thù dữ liệu không phù hợp hoặc yêu cầu cao về tài nguyên tính toán.
+	\vspace{0.2cm}
+	
+	Tóm lại, Random Forest là mô hình phù hợp nhất để sử dụng nếu mục tiêu là đạt được hiệu suất cao nhất. Nếu cần một mô hình đơn giản hơn mà vẫn đảm bảo hiệu quả, KNN là lựa chọn thay thế tốt. Các mô hình khác như Decision Tree và Logistic Regression có thể được sử dụng trong những tình huống đơn giản hơn hoặc khi cần giải thích rõ ràng. Việc chọn mô hình phù hợp cuối cùng phụ thuộc vào yêu cầu cụ thể của bài toán, tài nguyên tính toán, và khả năng mở rộng trong ứng dụng thực tế.
+		
 \end{document}
